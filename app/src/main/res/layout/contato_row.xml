@@ -7,21 +7,24 @@
     android:orientation="vertical">
     <RelativeLayout
         android:id="@+id/LinearLayout02"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_width="fill_parent">
 
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
             android:id="@+id/txtNome"
             android:text="Nome">
         </TextView>
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
             android:id="@+id/txtTelefone"
             android:text="Telefone"
             android:layout_below="@+id/txtNome">
         </TextView>
     </RelativeLayout>
+
 </LinearLayout>
