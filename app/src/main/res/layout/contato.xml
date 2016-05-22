@@ -38,6 +38,7 @@
         android:id="@+id/edtTelefone"
         android:layout_marginLeft="5dip"
         android:text="Telefone contato"
+        android:inputType="phone"
         android:width="190dip"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
