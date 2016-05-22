@@ -1,4 +1,4 @@
-package com.br.agenda;
+package com.br.agenda.UI;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
