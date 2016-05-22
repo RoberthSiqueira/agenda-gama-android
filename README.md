@@ -1,11 +1,15 @@
 # agenda-gama-android
-Atividade da terceira semana, no Bootcamp realizado pela Gama Academy. #GoGama
 
-Fomos desafiados a criarmos um simples aplicativo. 
+Atividade iniciada na tarde de sabadão, dia 21/05/2016, na terceira semana do Bootcamp realizado pela Gama Academy. #GoGama
 
-Mas esse deveria ser feito em uma plataforma onde nenhum dos integrantes possuíssem um tipo de domínio.
+Fomos desafiados a criar um aplicativo mobile em uma plataforma que não dominássemos, dentre as abaixo:
 
-Sendo assim, escolhemos fazer em Android.
+- Android
+- iOS
+- Angular.js
+- React Native
+
+Nosso grupo, coincidentemente, era composto por windows, mac e linux. Escolhemos então a plataforma do Android.
 
 ![Image of Android](https://pbs.twimg.com/profile_images/616076655547682816/6gMRtQyY.jpg)
 
@@ -18,3 +22,12 @@ Sendo assim, escolhemos fazer em Android.
 
 :coffee:
 
+# Instalação e teste
+
+1. Instalar o [Android Studio](https://developer.android.com/studio/install.html) na sua plataforma;
+2. Clonar esse projeto no computador com o comando abaixo:
+```shellscript
+git clone https://github.com/RoberthSiqueira/agenda-gama-android.git
+```
+3. Abrir o projeto no Android Studio e instalar as dependências;
+4. Emular o projeto no computador ou transferir para o celular.
