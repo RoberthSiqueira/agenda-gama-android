@@ -38,7 +38,3 @@ git clone https://github.com/RoberthSiqueira/agenda-gama-android.git
 Disponibilizamos um [vídeo](https://youtu.be/jm0KkWPx07U) no qual mostramos um pouco da utilização do nosso app.
 
 Nele, você poderá ver o aplicativo rodando em um dispositivo móvel normalmente.
-
-<iframe width="420" height="315
-src="https://youtu.be/jm0KkWPx07U">
-</iframe>
