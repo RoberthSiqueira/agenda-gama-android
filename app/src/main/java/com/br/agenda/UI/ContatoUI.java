@@ -8,7 +8,9 @@ import com.br.agenda.POJO.ContatoVO;
 import com.br.agenda.UI.R;
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -25,10 +27,13 @@ public class ContatoUI extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.contato);
 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("Adicionar Contato");
+        toolbar.setTitleTextColor(Color.WHITE);
+        toolbar.setNavigationIcon(R.mipmap.ic_launcher);
+
         try
         {
-
-
             final Bundle data = (Bundle) getIntent().getExtras();
             int lint = data.getInt("tipo");
             if (lint == INCLUIR)

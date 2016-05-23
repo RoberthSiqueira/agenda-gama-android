@@ -1,5 +1,7 @@
 package com.br.agenda.UI;
 
+        import java.util.Collections;
+        import java.util.Comparator;
         import java.util.List;
 
         import com.br.agenda.DAO.ContatoAdapter;
@@ -9,7 +11,9 @@ package com.br.agenda.UI;
         import android.app.Activity;
         import android.app.ListActivity;
         import android.content.Intent;
+        import android.graphics.Color;
         import android.os.Bundle;
+        import android.support.v7.widget.Toolbar;
         import android.view.ContextMenu;
         import android.view.Menu;
         import android.view.MenuItem;
@@ -35,10 +39,16 @@ public class MainActivity extends ListActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("Agenda Gama");
+        toolbar.setTitleTextColor(Color.WHITE);
+        toolbar.setNavigationIcon(R.mipmap.ic_launcher);
+
         lContaoDAO = new ContatoDAO(this);
         lContaoDAO.open();
 
         lstContatos = lContaoDAO.Consultar();
+        orderContactsByName();
 
         adapter = new ContatoAdapter(this, lstContatos);
         setListAdapter(adapter);
@@ -84,7 +94,8 @@ public class MainActivity extends ListActivity{
                         //insere o contato na lista de contatos em memória
                         lstContatos.add(lAgendaVO);
                     }
-                }else if (requestCode == ALTERAR){
+                }
+                else if (requestCode == ALTERAR){
                     lContaoDAO.open();
                     //atualiza o contato no Banco de Dados SQLite
                     lContaoDAO.Alterar(lAgendaVO);
@@ -93,6 +104,7 @@ public class MainActivity extends ListActivity{
                     lstContatos.set(Posicao, lAgendaVO);
                 }
 
+                orderContactsByName();
                 //método responsável pela atualiza da lista de dados na tela
                 adapter.notifyDataSetChanged();
             }
@@ -210,5 +222,14 @@ public class MainActivity extends ListActivity{
         Posicao = position;
         blnShort = true;
         this.openContextMenu(l);
+    }
+
+    private void orderContactsByName(){
+        Collections.sort(lstContatos, new Comparator<ContatoVO>() {
+            @Override
+            public int compare(ContatoVO lhs, ContatoVO rhs) {
+                return lhs.getNome().compareToIgnoreCase(rhs.getNome());
+            }
+        });
     }
 }
