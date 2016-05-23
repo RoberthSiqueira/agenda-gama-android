@@ -1,5 +1,4 @@
-![Logo Gama](https://gamawp.s3.amazonaws.com/uploads/2016/03/logo-gama-white-s.png)
-# agenda-gama-android
+# agenda-gama-android ![Logo Gama](https://gamawp.s3.amazonaws.com/uploads/2016/03/logo-gama-white-s.png)
 
 Atividade iniciada na tarde de sabadão, dia 21/05/2016, na terceira semana do Bootcamp realizado pela Gama Academy. #GoGama
 
@@ -38,3 +37,5 @@ git clone https://github.com/RoberthSiqueira/agenda-gama-android.git
 Disponibilizamos um [vídeo](https://youtu.be/jm0KkWPx07U) no qual mostramos um pouco da utilização do nosso app.
 
 Nele, você poderá ver o aplicativo rodando em um dispositivo móvel normalmente.
+
+![Aplicativo abrindo](http://i.giphy.com/3o6EhCxbkeoyguUeli.gif) 
