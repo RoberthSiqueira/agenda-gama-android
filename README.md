@@ -39,5 +39,6 @@ Disponibilizamos um [vídeo](https://youtu.be/jm0KkWPx07U) no qual mostramos um 
 
 Nele, você poderá ver o aplicativo rodando em um dispositivo móvel normalmente.
 
-<iframe src="https://youtu.be/jm0KkWPx07U">
+<iframe width="420" height="315
+src="https://youtu.be/jm0KkWPx07U">
 </iframe>
