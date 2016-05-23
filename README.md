@@ -31,3 +31,9 @@ git clone https://github.com/RoberthSiqueira/agenda-gama-android.git
 ```
 3. Abrir o projeto no Android Studio e instalar as dependências;
 4. Emular o projeto no computador ou transferir para o celular.
+
+# Exemplo
+
+Disponibilizamos um [vídeo](https://drive.google.com/file/d/0B75H0HULlt9uS21VZS1jbkxYa28/view?usp=drivesdk), onde mostramos um pouco da utilização do nosso app.
+
+Nele, você poderá ver o aplicativo rodando em um dispositivo móvel normalmente.
