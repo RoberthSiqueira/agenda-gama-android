@@ -38,4 +38,4 @@ Disponibilizamos um [vídeo](https://youtu.be/jm0KkWPx07U) no qual mostramos um 
 
 Nele, você poderá ver o aplicativo rodando em um dispositivo móvel normalmente.
 
-![abrindo](http://i.giphy.com/3o6EhCxbkeoyguUeli.gif)
+![abrindo](http://i.giphy.com/3oEjHOarE7n9AKKMHC.gif)
