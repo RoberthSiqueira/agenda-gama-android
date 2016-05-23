@@ -1,6 +1,6 @@
 # agenda-gama-android
 
-Atividade iniciada na tarde de sabadão, dia 21/05/2016, na terceira semana do Bootcamp realizado pela Gama Academy. ![#GoGama](https://gamawp.s3.amazonaws.com/uploads/2016/03/logo-gama-white-s.png) [#GoGama](http://gama.academy)
+Atividade iniciada na tarde de sabadão, dia 21/05/2016, na terceira semana do Bootcamp realizado pela Gama Academy. ![#GoGama](https://gamawp.s3.amazonaws.com/uploads/2016/03/logo-gama-white-s.png) [#GoGama](http://gama.academy) #GoGama
 
 Fomos desafiados a criar um aplicativo mobile em uma plataforma que não dominássemos, dentre as abaixo:
 
